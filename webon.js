@@ -141,6 +141,7 @@ export const a = (...args) => createElement("a", args)
 export const option = (...args) => createElement("option", args)
 export const select = (...args) => createElement("select", args)
 export const canvas = (...args) => createElement("canvas", args)
+export const aside = (...args) => createElement("aside", args)
 
 // css definition
 export const css = (stylesheetDefinition) => {
