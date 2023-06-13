@@ -118,6 +118,7 @@ export const id = applyAttributeToElement('id')
 export const href = applyAttributeToElement('href')
 export const target = applyAttributeToElement('target')
 export const name = applyAttributeToElement('name')
+export const type = applyAttributeToElement('type')
 
 // element definition
 export const input = (...args) => createElement("input", args);
@@ -142,6 +143,7 @@ export const option = (...args) => createElement("option", args)
 export const select = (...args) => createElement("select", args)
 export const canvas = (...args) => createElement("canvas", args)
 export const aside = (...args) => createElement("aside", args)
+export const article = (...args) => createElement("article", args)
 
 // css definition
 export const css = (stylesheetDefinition) => {
