@@ -119,8 +119,15 @@ export const href = applyAttributeToElement('href')
 export const target = applyAttributeToElement('target')
 export const name = applyAttributeToElement('name')
 export const type = applyAttributeToElement('type')
+export const src = applyAttributeToElement('src')
+export const alt = applyAttributeToElement('alt')
 
 // element definition
+export const address = (...args) => createElement("address", args);
+export const article = (...args) => createElement("article", args)
+export const aside = (...args) => createElement("aside", args)
+export const footer = (...args) => createElement("footer", args);
+export const header = (...args) => createElement("header", args);
 export const input = (...args) => createElement("input", args);
 export const section = (...args) => createElement("section", args);
 export const head = (...args) => createElement("head", args);
@@ -131,6 +138,49 @@ export const h2 = (...args) => createElement("h2", args);
 export const h3 = (...args) => createElement("h3", args);
 export const h4 = (...args) => createElement("h4", args);
 export const h5 = (...args) => createElement("h5", args);
+export const h6 = (...args) => createElement("h6", args);
+export const hgroup = (...args) => createElement("hgroup", args);
+export const main = (...args) => createElement("main", args);
+export const blockquote = (...args) => createElement("blockquote", args);
+export const dd = (...args) => createElement("dd", args);
+export const dl = (...args) => createElement("dl", args);
+export const figcaption = (...args) => createElement("figcaption", args);
+export const dt = (...args) => createElement("dt", args);
+export const figure = (...args) => createElement("figure", args);
+export const hr = (...args) => createElement("hr", args);
+export const menu = (...args) => createElement("menu", args);
+export const pre = (...args) => createElement("pre", args);
+export const abbr = (...args) => createElement("abbr", args);
+export const bdi = (...args) => createElement("bdi", args);
+export const bdo = (...args) => createElement("bdo", args);
+export const br = (...args) => createElement("br", args);
+export const cite = (...args) => createElement("cite", args);
+export const code = (...args) => createElement("code", args);
+export const data = (...args) => createElement("data", args);
+export const dfn = (...args) => createElement("dfn", args);
+export const em = (...args) => createElement("em", args);
+export const kbd = (...args) => createElement("kbd", args);
+export const mark = (...args) => createElement("mark", args);
+export const q = (...args) => createElement("q", args);
+export const rp = (...args) => createElement("rp", args);
+export const rt = (...args) => createElement("rt", args);
+export const ruby = (...args) => createElement("ruby", args);
+export const s = (...args) => createElement("s", args);
+export const samp = (...args) => createElement("samp", args);
+export const small = (...args) => createElement("small", args);
+export const strong = (...args) => createElement("strong", args);
+export const sub = (...args) => createElement("sub", args);
+export const sup = (...args) => createElement("sup", args);
+export const time = (...args) => createElement("time", args);
+export const u = (...args) => createElement("u", args);
+export const var_ = (...args) => createElement("var", args);
+export const wbr = (...args) => createElement("wbr", args);
+export const area = (...args) => createElement("area", args);
+export const audio = (...args) => createElement("audio", args);
+export const img = (...args) => createElement("img", args);
+export const map = (...args) => createElement("map", args);
+export const track = (...args) => createElement("track", args);
+export const video = (...args) => createElement("video", args);
 export const button = (...args) => createElement("button", args);
 export const p = (...args) => createElement("p", args);
 export const ul = (...args) => createElement("ul", args);
@@ -142,8 +192,8 @@ export const a = (...args) => createElement("a", args)
 export const option = (...args) => createElement("option", args)
 export const select = (...args) => createElement("select", args)
 export const canvas = (...args) => createElement("canvas", args)
-export const aside = (...args) => createElement("aside", args)
-export const article = (...args) => createElement("article", args)
+export const i = (...args) => createElement("i", args)
+export const b = (...args) => createElement("b", args)
 
 // css definition
 export const css = (stylesheetDefinition) => {
