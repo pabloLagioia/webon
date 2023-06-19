@@ -1,0 +1,8 @@
+{
+  "name": "webon",
+  "version": "0.0.1",
+  "description": "Functional like JavaScript UI library to write dynamic HTML in JS",
+  "main": "webon.js",
+  "author": "",
+  "license": "ISC"
+}

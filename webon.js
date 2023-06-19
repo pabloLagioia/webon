@@ -1,7 +1,7 @@
-// /**
-//  * This is a JavaScript library that expresses HTML as similar as possible to HTML but in JavaScript.
-//  * You can then do things such as updating parts of the HTML by raising events from a data store.
-//  */
+/**
+ * This is a JavaScript library that expresses HTML as similar as possible to HTML but in JavaScript.
+ * You can then do things such as updating parts of the HTML by raising events from a data store.
+ */
 
 // Convenient functions
 const pushRenderFunction = (element, renderFunction) => {
@@ -142,6 +142,7 @@ export const h6 = (...args) => createElement("h6", args);
 export const hgroup = (...args) => createElement("hgroup", args);
 export const main = (...args) => createElement("main", args);
 export const blockquote = (...args) => createElement("blockquote", args);
+export const caption = (...args) => createElement("caption", args);
 export const dd = (...args) => createElement("dd", args);
 export const dl = (...args) => createElement("dl", args);
 export const figcaption = (...args) => createElement("figcaption", args);
